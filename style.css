@@ -1,20 +1,29 @@
-body {
+/* Reset + full height fix */
+html, body {
     margin: 0;
-    background: #0D0D0D;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Body styling */
+  body {
     font-family: 'Inter', sans-serif;
+    background: #0D0D0D;
+    background-image: radial-gradient(circle at center, #1A1A1A 0%, #0D0D0D 100%);
     color: #F5F5F5;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-image: radial-gradient(circle at center, #1A1A1A 0%, #0D0D0D 100%);
+    min-height: 100vh;
+    text-align: center;
   }
   
+  /* Container */
   .container {
-    text-align: center;
     padding: 2rem;
   }
   
+  /* Heading */
   h1 {
     font-size: 2rem;
     font-weight: 600;
@@ -22,11 +31,13 @@ body {
     color: #E0E0E0;
   }
   
+  /* Paragraph */
   p {
     font-size: 1.2rem;
     color: #B0B0B0;
   }
   
+  /* Glowing effect */
   .glow {
     color: #CBA135;
     text-shadow: 0 0 10px #CBA13588, 0 0 20px #CBA13555;
