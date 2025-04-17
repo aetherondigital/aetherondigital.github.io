@@ -36,8 +36,9 @@ p {
   color: #B0B0B0;
 }
 
-/* Gold glow effect */
+/* Teal glow effect */
 .glow {
-  color: #CBA135;
-  text-shadow: 0 0 10px #CBA13588, 0 0 20px #CBA13555;
+  color: #007F74;
+  text-shadow: 0 0 10px #007F7488, 0 0 20px #007F7455;
 }
+
