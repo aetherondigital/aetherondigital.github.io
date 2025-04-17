@@ -1,28 +1,34 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    background: #0D0D0D;
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: radial-gradient(circle at center, #1A1A1A 0%, #0D0D0D 100%);
   }
   
-  header {
-    background: #24292e;
-    color: white;
-    padding: 2rem;
+  .container {
     text-align: center;
-  }
-  
-  main {
     padding: 2rem;
   }
   
-  footer {
-    background: #e1e4e8;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #E0E0E0;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #B0B0B0;
+  }
+  
+  .glow {
+    color: #CBA135;
+    text-shadow: 0 0 10px #CBA13588, 0 0 20px #CBA13555;
   }
   
